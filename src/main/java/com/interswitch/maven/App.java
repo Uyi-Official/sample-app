@@ -6,10 +6,14 @@ import java.util.Scanner;
  * Hello world!
  *
  */
-//public class App
-//{
-//    public static void main( String[] args )
-//    {
+public class App
+{
+    public static void main( String[] args )
+    {
+
+    UpperLowerCase ulc = new UpperLowerCase();
+        System.out.printf("from %s to %s\n","Hello world",ulc.toUpperCase("Hello world"));
+        System.out.printf("from %s to %s\n","Hello world",ulc.toLowerCase("Hello world"));
 //        System.out.println( "Hello World!" );
 //        Scanner scn = new Scanner(System.in);
 //        System.out.println("Enter first number");
@@ -24,7 +28,7 @@ import java.util.Scanner;
 //            throw new RuntimeException(e);
 //        }
 //        sub(x,y);
-//    }
+    }
 //
 //
 //    static void add(int x, int y){
@@ -44,6 +48,6 @@ import java.util.Scanner;
 //    static void divide(int x, int y){
 //        System.out.printf("The division of %d by %d is %d",x,y,x/y);
 //    }
-//}
+}
 
 //--------------------------------------------------------------------------------------------------
